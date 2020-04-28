@@ -1,0 +1,25 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.table_style {
+  border-collapse: collapse;
+}
+
+table,
+td,
+th {
+  border: solid 1px #ccc;
+  font-family: "Coming Soon", cursive;
+}
+
+th {
+  padding: 20px 30px;
+}
+td {
+  padding: 5px 10px;
+}
+
+.last_button .input_text select {
+  padding: 3px 6px;
+}
