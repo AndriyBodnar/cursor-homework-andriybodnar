@@ -20,7 +20,10 @@ td {
   padding: 5px 10px;
 }
 
-.last_button .input_text {
+.last_button {
+  padding: 3px 6px;
+}
+.input_text {
   padding: 3px 6px;
 }
 
