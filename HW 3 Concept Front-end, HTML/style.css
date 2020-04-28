@@ -20,6 +20,10 @@ td {
   padding: 5px 10px;
 }
 
-.last_button .input_text select {
+.last_button .input_text {
+  padding: 3px 6px;
+}
+
+select {
   padding: 3px 6px;
 }
