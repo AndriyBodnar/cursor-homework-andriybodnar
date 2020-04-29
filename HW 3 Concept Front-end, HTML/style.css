@@ -1,16 +1,27 @@
 body {
   font-family: "Lato", sans-serif;
-}
+  background-color: #9CA880;
 
+
+}
+h2{
+  margin: 10px 0px 10px 170px;
+}
 .table_style {
-  border-collapse: collapse;
+  border-collapse: collapse; 
+}
+table{
+  align-items: center;
+  
 }
 
 table,
 td,
 th {
-  border: solid 1px #ccc;
+  border: solid 1px mediumslateblue;
   font-family: "Coming Soon", cursive;
+  background-color: #C0A850;
+  text-align: center;
 }
 
 th {
@@ -21,12 +32,31 @@ td {
 }
 
 .last_button {
+  background-color: #C0A850;
   padding: 3px 6px;
+  border-color: mediumslateblue;
 }
 .input_text {
-  padding: 3px 6px;
+  background-color: #C0A850;
+  border-color: mediumslateblue;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 0.5em;
 }
 
 select {
+  background-color: #C0A850;
   padding: 3px 6px;
+  border-color: mediumslateblue;
 }
+
+textarea{
+  background-color: #C0A850;
+  border-color: mediumslateblue;
+}
+
+form{
+  flex-basis: 200px;
+  
+}
+

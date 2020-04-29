@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/AdditionalFiles/img/logo.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
@@ -11,7 +12,7 @@
 </head>
 
 <body>
-  <h2>Actors serial Mr. Robot</h2>
+  <h2 class="table_style">Actors serial Mr. Robot</h2>
   <table class="table_style">
     <tr>
       <th>First name</th>
@@ -52,17 +53,17 @@
   </table>
   <form>
     <p>
-      <input type="text" class="input_text" placeholder="Enter your first name" />
+      <input type="text" class="input_text" placeholder="Enter your first name" required />
     </p>
     <p>
-      <input type="text" class="input_text" placeholder="Enter your last name" />
+      <input type="text" class="input_text" placeholder="Enter your last name" required />
     </p>
     <p>What is your gender?</p>
     <div>
-      <input type="radio" name="Gender" checked id="m" />
+      <input type="radio" name="Gender" checked id="m" class="radio_box" />
       <label for="m">Male</label>
     </div>
-    <input type="radio" name="Gender" id="f" /><label for="f">Female</label>
+    <input type="radio" name="Gender" id="f" class="radio_box" /><label for="f">Female</label>
 
     <p>
       <textarea name="Question" cols="30" rows="5" placeholder="Write your question"></textarea>
@@ -87,7 +88,7 @@
       <input type="checkbox" name="Language" id="en" /><label for="en">
         English</label>
     </div>
-    <p><input class="last_button" type="button" value="Send" /></p>
+    <p><input class="last_button" type="submit" value="Send" /></p>
   </form>
 </body>
 
