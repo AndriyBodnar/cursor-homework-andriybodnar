@@ -126,7 +126,7 @@ tr {
   border-radius: 5px;
   margin-left: 125px;
   margin-bottom: 20px;
-  margin-top: px;
+  margin-top: -8px;
 }
 
 .third-icon::before {
@@ -170,7 +170,7 @@ tr {
   width: 17px;
   height: 17px;
   position: absolute;
-  margin-left: 287px;
+  margin-left: 286px;
   margin-bottom: -2px;
 }
 
