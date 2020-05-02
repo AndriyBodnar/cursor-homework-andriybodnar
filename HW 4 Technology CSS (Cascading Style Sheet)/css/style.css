@@ -201,7 +201,7 @@ tr {
 
 .second_icon21::after {
   content: "";
-  background-image: url("../../img/icon/5.svg");
+  background-image: url("../img/icon/5.svg");
   background-size: 15px;
   background-repeat: no-repeat;
   width: 17px;
@@ -213,7 +213,7 @@ tr {
 
 .second_icon31::after {
   content: "";
-  background-image: url("../../img/icon/5.svg");
+  background-image: url("../img/icon/5.svg");
   background-size: 15px;
   background-repeat: no-repeat;
   width: 17px;
@@ -260,7 +260,7 @@ label::before {
 
 
 input[type="checkbox"]:checked + label::before {
-  background-image: url("/HW 4 Technology CSS (Cascading Style Sheet)/img/icon/7.svg");
+  background-image: url("../img/icon/7.svg");
   background-color: #199ffd;
   background-size: 100%;
 }
@@ -269,7 +269,7 @@ input[type="checkbox"]:checked + label::before {
 
 
 input[id="checkbox-name"]:checked + label::before {
-  background-image: url("/HW 4 Technology CSS (Cascading Style Sheet)/img/icon/8.svg");
+  background-image: url("../img/icon/8.svg");
   background-color: #199ffd;
   background-size: 100%;
 }
