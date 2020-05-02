@@ -201,7 +201,7 @@ tr {
 
 .second_icon21::after {
   content: "";
-  background-image: url("../img/icon/5.svg");
+  background-image: url("../../img/icon/5.svg");
   background-size: 15px;
   background-repeat: no-repeat;
   width: 17px;
@@ -213,7 +213,7 @@ tr {
 
 .second_icon31::after {
   content: "";
-  background-image: url("../img/icon/5.svg");
+  background-image: url("../../img/icon/5.svg");
   background-size: 15px;
   background-repeat: no-repeat;
   width: 17px;
