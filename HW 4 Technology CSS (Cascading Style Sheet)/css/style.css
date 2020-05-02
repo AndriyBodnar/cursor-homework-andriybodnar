@@ -42,15 +42,31 @@ tr {
 .first_icon::after {
   content: "";
   background-image: url("../img/icon/1.svg");
-  background-size: 15px;
+  background-size: 12px;
   background-repeat: no-repeat;
   width: 17px;
   height: 17px;
   margin-left: 12px;
   position: absolute;
-  margin-top: -3px;
+  margin-top: -1px;
   fill: white;
 }
+
+.first_icon:hover::after {
+  content: "";
+  background-image: url("../img/icon/6.svg");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 17px;
+  margin-left: 12px;
+  position: absolute;
+  margin-top: -1px;
+}
+
+
+
+
 
 .second_icon1::after {
   content: "";
@@ -92,22 +108,42 @@ tr {
   margin: 40px 440px 40px 60px;
 }
 
-.checkbox {
+/* .checkbox {
   margin-bottom: 10px;
   margin-right: 10px;
   margin-top: 5px;
-}
+} */
 
 .first_icon2::after {
   content: "";
   background-image: url("../img/icon/1.svg");
-  background-size: 15px;
+  background-size: 12px;
   background-repeat: no-repeat;
   width: 17px;
   height: 17px;
   position: absolute;
-  margin: 1px 20px 20px 12px;
+  margin: -1px 20px 20px 12px;
 }
+
+
+.first_icon2:hover::after {
+  content: "";
+  background-image: url("../img/icon/6.svg");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  margin: -1px 20px 20px 12px;
+}
+
+
+
+
+
+
+
+
 
 .list-padding-left3 {
   padding-left: 36px;
@@ -194,3 +230,62 @@ th.first {
 td.first {
   width: 385px;
 }
+
+
+
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+label::before {
+    content: ' ';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: seashell;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+
+
+
+
+input[type="checkbox"]:checked + label::before {
+  background-image: url("/HW 4 Technology CSS (Cascading Style Sheet)/img/icon/7.svg");
+  background-color: #199ffd;
+  background-size: 100%;
+}
+
+
+
+
+input[id="checkbox-name"]:checked + label::before {
+  background-image: url("/HW 4 Technology CSS (Cascading Style Sheet)/img/icon/8.svg");
+  background-color: #199ffd;
+  background-size: 100%;
+}
+
+
+
+
+.padding-for-secondtable{
+padding-left: 10px ;
+
+}
+
+
+
+
+
+
+
+
