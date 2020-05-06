@@ -1,75 +1,185 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Lato', sans-serif;
-    width: 1440px;
-    height: 782px;
-    background-image: url("../img/bg-image.svg");
-    background-repeat: no-repeat;
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
-  }
-
-a{
-    text-decoration: none;
-    color: #fff;
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  background-image: url("../img/bg-image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
 }
 
-
-.header{
-    text-transform: uppercase;
-    width: 100%;
-    height: 100px;
-    display: inline-block;
-    margin-top: 17px;
-    color: #fff;
+.screen {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  min-height: 100vh;
+  padding-bottom: 100px;
 }
 
-.logo{
-    width: 136px;
-    height: 22px;
-    margin-top: 22px;
-    margin-left: 136px;
-    margin-right: 161px;
+a {
+  color: #fff;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/*header*/
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 58px;
 }
 
-.menu{
-    text-transform: uppercase;
-    height: 22px;
-    width: 445px;
-    display: inline-block;
+.header__logo {
+  margin-right: auto;
+  margin-left: 201px;
 }
 
-
-.select__language{
-    display: flex;
-    width: 32px;
-    height: 22px;
-    margin-top: 59px;
-    margin-left: 1099px;
+.logo__title {
+  margin-left: 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  line-height: 22px;
+  font-size: 18px;
 }
 
-
-.button__login{
-    display: flex;
-    width: 100px;
-    height: 40px;
-    margin-left: 1172px;
-    margin-top: 50px;
+.logo__title:hover {
+  font-size: 22px;
+  transition: linear 0.4s;
 }
 
-.header__inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 23px;
+  margin-left: auto;
 }
+
 .menu__list {
-    display: flex;
-    margin-right: 156px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+}
 
+.menu__list li {
+  margin-right: 25px;
+  cursor: pointer;
+}
 
-  .menu__list li {
-    margin-left: 23px;
-  }
+.select__language {
+  display: flex;
+  align-items: center;
+  margin-right: 23px;
+  margin-left: auto;
+}
+
+.flag {
+  width: 32px;
+  height: 32px;
+}
+.language__text {
+  margin-left: 11px;
+  margin-right: 11px;
+  color: #fff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.button__login {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin-left: 25px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  background: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 168px;
+}
+
+.button__login:hover {
+  background-color: #fff;
+  color: #dd442c;
+  transition: linear 0.3s;
+}
+
+/* .wrapper:hover {
+  background-image: url();
+} */
+
+.menu__list li:hover {
+  font-size: 18px;
+  transition: linear 0.4s;
+}
+
+/*main*/
+.main {
+  text-align: center;
+}
+.main__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 140px;
+}
+
+.main__title-sub {
+  font-style: normal;
+  width: 540px;
+  height: 124px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #fff;
+  margin-top: 40px;
+  margin-left: 450px;
+  letter-spacing: 2px;
+}
+
+.main__button {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background: #fff;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ed4c5c;
+  margin-top: 40px;
+  margin-left: 640px;
+}
+
+.main__button:hover {
+  color: #fff;
+  background: transparent;
+  transition: linear 0.3s;
+}

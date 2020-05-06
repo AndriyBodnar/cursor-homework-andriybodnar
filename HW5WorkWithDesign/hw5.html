@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="../AdditionalFiles/css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <header class="header">
+  <body>
+    <div class="screen">
+      <div class="container">
+        <header class="header">
+          <div class="header__logo">
+            <a href="#">
+              <img
+                src="/HW5WorkWithDesign/img/icon/cloud.svg"
+                alt="Cloud_icon"
+              /><span class="logo__title">Cloudbudget</span></a
+            >
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="#">Overview</a></li>
+              <li class="menu__list-item"><a href="#">Features</a></li>
+              <li class="menu__list-item"><a href="#">Technology</a></li>
+              <li class="menu__list-item"><a href="#">Contact</a></li>
+              <li class="menu__list-item"><a href="#">Sign up</a></li>
+            </ul>
+          </nav>
+          <div class="select__language">
+            <img
+              src="./img/icon/flagTheUSA.svg"
+              alt="FlagOfTheUSA"
+              class="flag"
+            />
+            <span class="language__text">EN</span>
+            <img src="./img/icon/wrapper.svg" alt="Wrapper" wrapper/>
+          </div>
+
+          <button class="button__login">Login</button>
+        </header>
+      </div>
+
+      
         <div class="container">
-            <div class="header__inner">
-                <div class="logo">
-                    <a href="#">Cloudbudget</a>
-                </div>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li><a href="#">Overview</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Sign up</a></li>
-                    </ul>
-                </nav>
-                <div class="select__language">
-                    <span>EN</span>
-
-
-                </div>
-                <div class="button__login">
-                    <button>Login</button> </div>
-            </div>
+          <main class="main">
+            <h1 class="main__title">CloudBudget</h1>
+            <p class="main__title-sub">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial
+                of</br> Up to €4.99</p>
+            <button class="main__button">Sign Up</button>
+          </main>
         </div>
-    </header>
-    <article></article>
-</body>
+      </main>
 
+
+
+
+
+
+    </div>
+  </body>
 </html>
