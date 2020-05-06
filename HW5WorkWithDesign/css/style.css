@@ -165,7 +165,7 @@ a {
   height: 50px;
   background: #fff;
   text-transform: uppercase;
-  border: 1px solid #fff;
+  border: 1px solid;
   border-radius: 6px;
   cursor: pointer;
   text-align: center;
@@ -226,6 +226,9 @@ text-align: center;
 }
 }
 @media screen and (max-width: 450px){
+  body{
+    overflow: hidden;
+  }
   .container{
     width: 400px;
   }
