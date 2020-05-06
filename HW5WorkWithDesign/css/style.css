@@ -183,3 +183,82 @@ a {
   background: transparent;
   transition: linear 0.3s;
 }
+
+@media screen and (max-width: 1100px){
+  .container{
+    max-width: 1080px;
+  }
+
+.menu{
+order: 1;
+  margin: 30px 15px;
+}
+.main__title-sub{
+text-align: center;
+  font-size: 20px;
+  margin-left: 25%;
+}
+.main__title{
+  font-style: 60px;
+}
+
+.main__button{
+  margin-left: 455px;
+}
+}
+
+
+@media screen and (max-width: 780px){
+  .container{
+    min-width: 740px;
+  }
+  .main__title-sub{
+    margin-left: 120px;}
+    .main__button{
+      margin-left: 298px;
+    }
+
+.header__logo{
+  margin-left: 30px;
+}
+.button__login{
+  margin-right: 30px;
+}
+}
+@media screen and (max-width: 450px){
+  .container{
+    width: 400px;
+  }
+  .main__button{
+margin-left: 125px;
+  }
+  .main__title{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-right: 320px;
+  }
+  .main__title-sub{
+    margin-left: 30px;
+    width: 360px;
+    height: 100px;
+  }
+
+  .select__language{
+    margin-right: 350px;
+  }
+
+
+  .button__login{
+    margin-top: 20px;
+    margin-right: 104px;
+    margin-left: 60px; 
+  }
+.menu__list{
+flex-direction: column;
+padding-top: 5px;
+margin-left: 45px;
+margin-right: 330px;
+justify-content: space-between;
+line-height: 30px;
+
+}
