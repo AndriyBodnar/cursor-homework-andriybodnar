@@ -1,0 +1,318 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ed4c5c;
+  display: flex;
+
+  height: 500px;
+  color: #fff;
+}
+
+.header__text-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 163px;
+}
+
+.header__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 122px;
+
+  letter-spacing: 2px;
+  width: 445px;
+  height: 107px;
+}
+.header__title-sub {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: justify;
+  width: 528px;
+  height: 64px;
+  margin-top: 24px;
+}
+
+.header__download-link {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  width: 134px;
+  margin-top: 40px;
+}
+
+.slider {
+  margin-left: 81px;
+  margin-top: 94px;
+}
+
+.sub_text {
+  text-align: justify;
+}
+
+.main {
+  background-color: #fff;
+  display: flex;
+  height: 500px;
+  color: #000000;
+}
+.main__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  width: 445px;
+  height: 107px;
+  margin-top: 117px;
+  margin-left: 176px;
+}
+.main__title-sub {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+  width: 470px;
+  height: 64px;
+  margin-top: 24px;
+  margin-left: 176px;
+  margin-right: 125px;
+}
+
+.form {
+  width: 540px;
+  height: 305px;
+}
+.name__client {
+  margin-top: 117px;
+  display: flex;
+}
+
+.name__client input {
+  margin-right: 30px;
+  padding: 21px 31px 20px 31px;
+  font-size: 16px;
+  width: 255px;
+  height: 60px;
+  border-radius: 6px;
+  border: 1px solid #333333;
+  outline: none;
+  -moz-placeholder color: red; 
+}
+
+.form__phone input {
+  width: 540px;
+  height: 60px;
+  padding: 21px 280px 20px 31px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  
+}
+
+.select__service select {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  outline: none;
+  padding: 21px 305px 18px 25px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: url("../img/ChevronDown.svg");
+  background-repeat: no-repeat;
+  background-position: right 1% center;
+  outline: 0;
+  color: rgba(19, 39, 67, 0.5);
+}
+.select__option-color {
+  color: #000;
+}
+.select__service,
+.form__phone {
+  margin-top: 24px;
+}
+
+.main__button-submit {
+  margin-top: 27px;
+}
+
+.main__button-submit input {
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  border-radius: 6px;
+  color: #fff;
+  padding: 17px 34px 16px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+ }
+
+
+select:focus{
+  color: #000;
+}
+
+
+
+
+
+input[type="text"]::-webkit-input-placeholder {
+      color: rgba(19, 39, 67, 0.5);
+   } 
+input[type="text"]::-moz-placeholder {
+    color: rgba(19, 39, 67, 0.5);
+}
+
+
+
+.footer {
+  background-color: #fafafa;
+  display: flex;
+  height: 435px;
+  color: #000000;
+}
+
+
+.footer__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  
+  padding-left: 0px;
+}
+
+.address__sup{
+  width: 254px;
+  height: 54px;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 150%;
+margin-right: 30px;
+margin-top: 33px;
+}
+
+
+
+.menu__service{
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 160%;
+text-transform: capitalize;
+width: 254px;
+height: 114px;
+margin-top: 28px;
+}
+
+
+.info__content-touch{
+  font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+}
+
+.email__info{
+  color: #101010;
+}
+
+.phone__info{
+  color: #121212;
+}
+
+
+.address__title{
+  width: 65px;
+  height: 22px;
+  
+  
+}
+
+.email__info{
+  margin-top: 33px;
+  margin-right: 166px;
+}
+
+.phone__info{
+  margin-top: 11px;
+}
+
+.social__icon{
+  margin-top: 21px;
+}
+
+.social__icon-mr{
+  margin-right: 16px;
+}
+
+.picture__support{
+  margin-top: 33px;
+}
+
+.footer__copyright{
+  margin-top: 141px;
+}
+
+
+
+
+
+.footer__wesupport{
+  width: 96px;
+  height: 22px;
+  margin-top: 85px;
+  margin-left: 11.94%;
+}
+
+.footer__address{
+  width: 18.68%;
+  height: 264px;
+  margin-top: 85px;
+  margin-left: 13.19%;
+}
+
+
+.footer__service{
+  width: 17.64%;
+  height: 164px;
+  margin-top: 85px;
+  margin-left: 30px;
+}
+
+.footer__getintouch{
+width: 8.47%;
+height: 128px;
+margin-top: 85px;
+margin-left: 30px;
+}
+
+.icon__windows-margin{
+  margin-top: 4px;
+}
+
+.main__button-submit input:hover{
+  background: #fff;
+  color: #ED4C5C;
+}
