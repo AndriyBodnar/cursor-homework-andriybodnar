@@ -112,7 +112,6 @@ body {
   border-radius: 6px;
   border: 1px solid #333333;
   outline: none;
-  -moz-placeholder color: red; 
 }
 
 .form__phone input {
@@ -123,7 +122,6 @@ body {
   border-radius: 6px;
   outline: none;
   font-size: 16px;
-  
 }
 
 .select__service select {
@@ -157,33 +155,26 @@ body {
 }
 
 .main__button-submit input {
-  background: #ED4C5C;
-  border: 1.5px solid #ED4C5C;
+  background: #ed4c5c;
+  border: 1.5px solid;
   border-radius: 6px;
   color: #fff;
   padding: 17px 34px 16px;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
- }
+}
 
-
-select:focus{
+select:focus {
   color: #000;
 }
 
-
-
-
-
 input[type="text"]::-webkit-input-placeholder {
-      color: rgba(19, 39, 67, 0.5);
-   } 
-input[type="text"]::-moz-placeholder {
-    color: rgba(19, 39, 67, 0.5);
+  color: rgba(19, 39, 67, 0.5);
 }
-
-
+input[type="text"]::-moz-placeholder {
+  color: rgba(19, 39, 67, 0.5);
+}
 
 .footer {
   background-color: #fafafa;
@@ -192,127 +183,115 @@ input[type="text"]::-moz-placeholder {
   color: #000000;
 }
 
-
-.footer__title{
+.footer__title {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-  
+
   padding-left: 0px;
 }
 
-.address__sup{
+.address__sup {
   width: 254px;
   height: 54px;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 150%;
-margin-right: 30px;
-margin-top: 33px;
-}
-
-
-
-.menu__service{
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 160%;
-text-transform: capitalize;
-width: 254px;
-height: 114px;
-margin-top: 28px;
-}
-
-
-.info__content-touch{
   font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  margin-right: 30px;
+  margin-top: 33px;
 }
 
-.email__info{
+.menu__service {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  text-transform: capitalize;
+  width: 254px;
+  height: 114px;
+  margin-top: 28px;
+}
+
+.info__content-touch {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.email__info {
   color: #101010;
 }
 
-.phone__info{
+.phone__info {
   color: #121212;
 }
 
-
-.address__title{
+.address__title {
   width: 65px;
   height: 22px;
-  
-  
 }
 
-.email__info{
+.email__info {
   margin-top: 33px;
   margin-right: 166px;
 }
 
-.phone__info{
+.phone__info {
   margin-top: 11px;
 }
 
-.social__icon{
+.social__icon {
   margin-top: 21px;
 }
 
-.social__icon-mr{
+.social__icon-mr {
   margin-right: 16px;
 }
 
-.picture__support{
+.picture__support {
   margin-top: 33px;
 }
 
-.footer__copyright{
+.footer__copyright {
   margin-top: 141px;
 }
 
-
-
-
-
-.footer__wesupport{
+.footer__wesupport {
   width: 96px;
   height: 22px;
   margin-top: 85px;
   margin-left: 11.94%;
 }
 
-.footer__address{
+.footer__address {
   width: 18.68%;
   height: 264px;
   margin-top: 85px;
   margin-left: 13.19%;
 }
 
-
-.footer__service{
+.footer__service {
   width: 17.64%;
   height: 164px;
   margin-top: 85px;
   margin-left: 30px;
 }
 
-.footer__getintouch{
-width: 8.47%;
-height: 128px;
-margin-top: 85px;
-margin-left: 30px;
+.footer__getintouch {
+  width: 8.47%;
+  height: 128px;
+  margin-top: 85px;
+  margin-left: 30px;
 }
 
-.icon__windows-margin{
+.icon__windows-margin {
   margin-top: 4px;
 }
 
-.main__button-submit input:hover{
+.main__button-submit input:hover {
   background: #fff;
-  color: #ED4C5C;
+  color: #ed4c5c;
 }
