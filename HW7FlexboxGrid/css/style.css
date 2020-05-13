@@ -1,0 +1,600 @@
+html,
+body {
+  font-family: "Avenir", sans-serif;
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  width: 78%;
+  height: 754px;
+
+  margin-top: 50px;
+  margin-left: 15%;
+}
+
+.top {
+  width: 70%;
+  height: 60px;
+  display: flex;
+}
+.top__logo {
+  margin-top: 12px;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  width: 322px;
+  height: 30px;
+  margin-left: 121px;
+  margin-top: 15px;
+  color: #4b5d68;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+.menu__list-item:hover {
+  font-weight: 800;
+  color: #212353;
+}
+
+.top__button {
+  margin-left: 418px;
+  letter-spacing: 0.005em;
+}
+
+.top__button-request {
+  width: 210px;
+  height: 60px;
+  border-radius: 50px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  background: #ffffff;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 29px;
+  padding-right: 29px;
+  color: #212353;
+  letter-spacing: 0.005em;
+  border: 0px;
+}
+.top__button-request:hover {
+  width: 230px;
+  transition: width 0.3s ease-out;
+}
+
+.title__main {
+  width: 645px;
+  height: 184px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  color: #212353;
+  margin-top: 130px;
+}
+
+.title__main-sub {
+  width: 380px;
+  height: 120px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 50px;
+}
+
+.title__button {
+  margin-top: 50px;
+}
+
+.title__button-learnmore {
+  width: 170px;
+  height: 60px;
+  background: #9c69e2;
+  border-radius: 50px;
+  border: 0px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+.title__button-learnmore:hover {
+  color: #9c69e2;
+  background: white;
+  border: 2px solid #9c69e2;
+}
+
+.title__image {
+  position: absolute;
+
+  left: 590px;
+  top: 336px;
+}
+
+.header__title {
+  display: flex;
+}
+
+.firstsection {
+  display: flex;
+
+  width: 69.81%;
+  height: 560px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+.firstsection__image {
+  margin-left: 11px;
+  margin-top: 31.82px;
+  margin-bottom: 24.18px;
+}
+.firstsection__title {
+  margin-left: 62px;
+  margin-right: 92px;
+}
+
+.firstsection__title-h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* or 52px */
+  color: #212353;
+  margin-top: 125px;
+  /* margin-right: 92px; */
+  height: 100px;
+  width: 475;
+  height: 100px;
+}
+
+.firstsection__title-sub {
+  margin-top: 40px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  /* 1 */
+  width: 474px;
+  height: 170px;
+  color: #4b5d68;
+}
+.main__title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.main__title-h3 {
+  margin-top: 150px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.main__title-sub {
+  margin-top: 50px;
+  width: 584px;
+  height: 58px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+  color: #4b5d68;
+  text-align: center;
+}
+
+.main__content {
+  margin-left: 13.75%;
+
+  margin-top: 150px;
+  height: 700px;
+  margin-right: 15.2%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.main {
+  height: 1002px;
+}
+
+.mcontent__sub {
+  height: 160px;
+  width: 221px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 34px;
+}
+
+.main__content-search {
+  display: flex;
+}
+
+.search__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.mcsearch__image {
+  margin-top: 13px;
+  margin-left: 19px;
+}
+
+.mcsearch__title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.main__content-button {
+  margin-top: 20px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.005em;
+  color: #212353;
+  width: 127px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.main__content-button:hover {
+  width: 150px;
+  transition: width 0.3s ease-out;
+}
+
+.main__content-access {
+  display: flex;
+  margin-left: 5.2%;
+}
+.access__text {
+  margin-left: 33px;
+}
+
+.main__content-printout {
+  display: flex;
+  margin-top: 132px;
+}
+
+.mcprintout__image {
+  margin-top: 65px;
+  margin-left: 1%;
+}
+
+.main__content-security {
+  display: flex;
+  margin-top: 132px;
+  margin-left: 7%;
+}
+
+.mcsecurity__image {
+  margin-top: 30px;
+}
+
+.secondsection {
+  display: flex;
+  flex-direction: column;
+  width: 69.88%;
+  height: 709px;
+  background: #9c69e2;
+  border-radius: 50px;
+  margin-top: 300px;
+  margin-left: 15.125%;
+}
+
+.secondsection__title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-top: 109px;
+  margin-left: 8.32%;
+}
+
+.secondsection__area {
+  background: #ffffff;
+  box-shadow: 0px 20px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 330px;
+  width: 84.88%;
+  margin-top: 88px;
+  margin-left: 8.32%;
+  display: flex;
+}
+
+.area__text-title {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+  margin-top: 80px;
+}
+.area__text-title-sub {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+
+  color: #9c69e2;
+}
+
+.secondsection__area-text {
+  margin-left: 4.64%;
+}
+
+.area__text-sub {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4b5d68;
+  /* width: 59.75%;
+  height: 130px; */
+  margin-top: 19px;
+}
+.secondsection__area-avataur {
+  margin-left: 10.85%;
+  margin-top: 60px;
+}
+
+.secondsection__slider {
+  margin-top: 60px;
+  margin-left: 8.32%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__arrow {
+  margin-right: 6.8%;
+  width: 8.94%;
+}
+.firstarrow__slider {
+  margin-right: 14.79%;
+}
+
+.footer {
+  width: 100%;
+  height: 761px;
+  border-top: 2px solid rgba(156, 105, 226, 0.6);
+  margin-top: 150px;
+}
+
+.footer__top,
+.footer__button {
+  display: flex;
+}
+
+.footer__button {
+  flex-direction: row-reverse;
+  margin-left: 18.75%;
+  margin-top: 120px;
+}
+.footer__title {
+  margin-left: 15%;
+  margin-top: 100px;
+}
+.footer__title-h3 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+
+.footer__title-sub {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  margin-top: 20px;
+}
+
+.second-button {
+  margin-right: 30px;
+}
+
+.footer__button-learnmore {
+  width: 170px;
+  height: 60px;
+  background: #f063b8;
+  border-radius: 50px;
+  border: 0px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 160%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer__button-learnmore:hover {
+  color: #f063b8;
+  background: white;
+  border: 2px solid #f063b8;
+}
+
+.footer__logo {
+  display: flex;
+  margin-top: 150px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.footer-logo {
+  margin-right: 20px;
+}
+
+.adress__content {
+  width: 335px;
+  height: 65px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+  margin-top: 65px;
+}
+
+.footer__main {
+  display: flex;
+  margin-left: 15%;
+}
+.email__content {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #212353;
+  margin-top: 10px;
+}
+
+.copyright__content {
+  margin-top: 118px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #212353;
+}
+
+.footer__adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.footet__logo-h5 {
+  margin-top: 3px;
+}
+
+.footer__about-title {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.menu__about-list,
+.menu__help-list {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 250%;
+  color: #212353;
+}
+
+.footer__social,
+.footer__help,
+.footer__about {
+  margin-top: 160px;
+}
+
+.footer__about {
+  margin-left: 7.81%;
+}
+
+.menu__about,
+.menu__help,
+.social__logo {
+  margin-top: 30px;
+}
+
+.footer__help {
+  margin-left: 30px;
+}
+
+.footer__help,
+.footer__social {
+  margin-left: 10.31%;
+}
+
+.social__logo-mr {
+  margin-right: 14px;
+}
+
+.chatbot__help {
+  margin-top: 220px;
+  margin-left: 70%;
+}
+.menu__footer-item:hover {
+  font-weight: 800;
+}
