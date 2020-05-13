@@ -170,7 +170,7 @@ body {
   margin-top: 125px;
   /* margin-right: 92px; */
   height: 100px;
-  width: 475;
+  width: 475px;
   height: 100px;
 }
 
@@ -410,7 +410,7 @@ body {
 
 .footer {
   width: 100%;
-  height: 761px;
+  height: 850px;
   border-top: 2px solid rgba(156, 105, 226, 0.6);
   margin-top: 150px;
 }
