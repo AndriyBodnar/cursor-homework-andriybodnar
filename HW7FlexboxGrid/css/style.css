@@ -271,7 +271,7 @@ body {
 
 .main__content-button {
   margin-top: 20px;
-
+  outline: none;
   font-family: Avenir;
   font-style: normal;
   font-weight: 900;
@@ -471,6 +471,7 @@ body {
   letter-spacing: normal;
   color: #ffffff;
   cursor: pointer;
+  outline: none;
 }
 .footer__button-learnmore:hover {
   color: #f063b8;
