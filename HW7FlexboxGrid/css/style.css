@@ -9,8 +9,8 @@ body {
 }
 .header {
   width: 78%;
-  height: 754px;
-
+  /* height: 100vh; */
+  padding-bottom: 100px;
   margin-top: 50px;
   margin-left: 15%;
 }
@@ -68,10 +68,10 @@ body {
   color: #212353;
   letter-spacing: 0.005em;
   border: 0px;
+  transition: width 0.3s ease-out;
 }
 .top__button-request:hover {
   width: 230px;
-  transition: width 0.3s ease-out;
 }
 
 .title__main {
@@ -119,6 +119,7 @@ body {
   letter-spacing: normal;
   color: #ffffff;
   cursor: pointer;
+  transition: ease 1s;
 }
 .title__button-learnmore:hover {
   color: #9c69e2;
@@ -229,7 +230,7 @@ body {
 }
 
 .main {
-  height: 1002px;
+  /* height: 1002px; */
 }
 
 .mcontent__sub {
@@ -282,10 +283,10 @@ body {
   height: 26px;
   display: flex;
   justify-content: space-between;
+  transition: width 0.3s ease-out;
 }
 .main__content-button:hover {
   width: 150px;
-  transition: width 0.3s ease-out;
 }
 
 .main__content-access {
@@ -320,11 +321,12 @@ body {
   display: flex;
   flex-direction: column;
   width: 69.88%;
-  height: 709px;
+  /* height: 709px; */
   background: #9c69e2;
   border-radius: 50px;
-  margin-top: 300px;
+  margin-top: 183px;
   margin-left: 15.125%;
+  padding-bottom: 65px;
 }
 
 .secondsection__title {
@@ -409,7 +411,8 @@ body {
 
 .footer {
   width: 100%;
-  height: 850px;
+  /* height: 850px; */
+  padding-bottom: 96px;
   border-top: 2px solid rgba(156, 105, 226, 0.6);
   margin-top: 150px;
 }
@@ -471,6 +474,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   outline: none;
+  transition: ease 1s;
 }
 .footer__button-learnmore:hover {
   color: #f063b8;
@@ -592,8 +596,11 @@ body {
 }
 
 .chatbot__help {
-  margin-top: 220px;
-  margin-left: 70%;
+  position: fixed;
+  top: 85%;
+  left: 85%;
+  bottom: auto;
+  right: auto;
 }
 .menu__footer-item:hover {
   font-weight: 800;
