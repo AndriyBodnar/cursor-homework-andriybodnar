@@ -239,13 +239,12 @@ body {
 .button__arrows {
   display: flex;
   justify-content: space-around;
-}
-
-.button__arrows {
-  /* width: 40px;
-    height: 40px; */
   margin-left: 3.81%;
   margin-top: 3%;
+}
+
+.button__arrows img {
+  cursor: pointer;
 }
 
 .aside__stat h4 {
