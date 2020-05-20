@@ -27,8 +27,16 @@ h1 {
 
 .end_text {
   text-align: end;
-  padding-top: 190px;
+  padding-top: 170px;
   padding-right: 60px;
   font-family: "Dancing Script", cursive;
   font-size: 25px;
+}
+
+.section {
+  display: flex;
+}
+
+.secondsection {
+  margin-left: 60px;
 }
