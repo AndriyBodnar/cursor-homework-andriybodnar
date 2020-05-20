@@ -228,7 +228,7 @@ body {
 }
 
 .article__button button:hover {
-  border: 1px solid #000;
+  border: 1px solid;
   color: #000;
   background: #fff;
 }
@@ -273,6 +273,10 @@ body {
 }
 
 #selected {
+  opacity: 1;
+  color: #000;
+}
+#selected2 {
   opacity: 1;
   color: #000;
 }
@@ -402,7 +406,6 @@ body {
 }
 
 .main__content-items {
-  padding-left: ;
   display: flex;
   justify-content: space-between;
   align-items: center;
