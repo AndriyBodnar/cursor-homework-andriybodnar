@@ -212,7 +212,7 @@ body {
   border-radius: 8px;
   color: #fff;
   outline: none;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -225,6 +225,7 @@ body {
   letter-spacing: 0.5px;
   margin-left: 39.97px;
   transition: 0.6s;
+  border: #f5f5f7 1px solid;
 }
 
 .article__button button:hover {
@@ -301,7 +302,7 @@ body {
   color: black;
   background-color: #f5f5f7;
   border-radius: 8px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -340,26 +341,27 @@ body {
 }
 
 .rigthside__footer button {
-  margin-top: 24.12px;
-  margin-bottom: 15.78px;
+  margin-top: 23.12px;
+  margin-bottom: 14.78px;
   outline: none;
   border: none;
   background: #000;
   color: #fff;
   border-radius: 8px;
-  padding: 12.55px 22.92px 12.45px 24.08px;
-  font-family: Roboto;
+  padding: 11.55px 21.92px 11.45px 23.08px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 0.5px;
   cursor: pointer;
-  transition: 0.6s;
+  /* transition: 0.3s; */
+  border: 1px #f5f5f7;
 }
 
 .rigthside__footer button:hover {
-  border: 1px solid #000;
+  border: solid #000;
   color: #000;
   background: #fff;
 }
@@ -439,7 +441,7 @@ body {
 }
 
 .course__text-sub {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -476,7 +478,7 @@ body {
   border: none;
   border-radius: 8px;
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 13px;
@@ -486,10 +488,11 @@ body {
   margin-right: 19.81px;
   cursor: pointer;
   transition: 0.6s;
+  border: 1px solid #f5f5f7;
 }
 
 .course__button button:hover {
-  border: 1px solid #000;
+  border: 1px solid;
   color: #000;
   background: #fff;
 }
