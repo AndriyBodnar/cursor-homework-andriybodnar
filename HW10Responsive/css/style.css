@@ -633,7 +633,12 @@ footer__menu-item:last-child {
 .mobile__video {
   display: none;
 }
-
+#inout-2{
+  display: none;
+  position: relative;
+  top: -86%;
+  right: -34%;
+}
 @media (max-width: 730px) {
   footer {
     /* justify-content: flex-start; */
@@ -845,6 +850,14 @@ footer__menu-item:last-child {
     justify-content: center;
     flex-basis: 100%;
     margin-bottom: 45px;
+  }
+  #inout{
+    display: none;
+  }
+  #inout-2{
+    display: inline;
+    height: 114px;
+    width: 114px;
   }
 }
 
