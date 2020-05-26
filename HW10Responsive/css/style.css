@@ -952,3 +952,9 @@ footer__menu-item:last-child {
     display: none;
   }
 }
+
+@media (max-width: 420px) {
+  .screen {
+    overflow-x: hidden;
+  }
+}
