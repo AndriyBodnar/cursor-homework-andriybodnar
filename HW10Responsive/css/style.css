@@ -179,7 +179,7 @@ body {
 }
 .firstsection__content h6 {
   margin-top: 22px;
-
+  margin-bottom: 30px;
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
@@ -904,7 +904,7 @@ footer__menu-item:last-child {
         rgba(255, 255, 255, 0) 67.14%
       ),
       rgba(255, 255, 255, 0.5)
-        url(../HW10Responsive/img/sectionfirst/background.png);
+        url(../img/sectionfirst/background.png);
 
     background-repeat: no-repeat;
     order: 2;
