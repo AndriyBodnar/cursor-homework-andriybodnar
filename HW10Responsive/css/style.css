@@ -153,6 +153,9 @@ body {
 }
 
 .firstsection__video {
+  bottom: 20px;
+  left: 30px;
+  position: relative;
 }
 
 .firstsection__content {
@@ -883,6 +886,7 @@ footer__menu-item:last-child {
 @media (max-width: 1306px) {
   .firstsection {
     flex-direction: column;
+    padding: 0px;
   }
   .firstsection__content {
     order: 1;
@@ -892,6 +896,7 @@ footer__menu-item:last-child {
     margin-top: 54px;
     margin-left: 20px;
      flex-basis: 0px;
+     padding: 0 20px;
 }
 
   .secondscreen {
@@ -919,6 +924,7 @@ footer__menu-item:last-child {
   }
   .firstsection__video {
     position: relative;
+    bottom: 20px;
   }
 }
 @media (max-width: 660px) {
