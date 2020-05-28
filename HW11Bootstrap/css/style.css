@@ -1,0 +1,264 @@
+.header__nav-bar {
+  margin: 0 auto;
+  max-width: 1050px;
+  padding-right: 0px;
+  padding-left: 0px;
+  align-items: baseline;
+}
+
+.search__box {
+  height: 29px;
+  width: 216px !important;
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-size: 9px;
+  background-position: left 30% center;
+  padding: 6px 0px;
+  /* border: 1px solid #525252;
+  border-radius: 5px; */
+  /* margin-left: 125px;
+  margin-bottom: 20px;
+  margin-top: -8px; */
+  color: #757575;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+}
+
+.search__box:focus {
+  background-image: none;
+}
+
+.color-icon-hover:hover {
+  fill: #4094ef;
+}
+
+.header__bottom-line {
+  margin: 0px 20px;
+  width: 98%;
+  background: #dbdbdb;
+  text-align: center;
+}
+
+.mt__logo {
+  margin-top: 29px;
+}
+
+.mt__content {
+  margin-top: 36px;
+  padding-left: 0px;
+}
+
+.follow__button {
+  margin-left: 26px;
+  width: 97px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 26px;
+}
+.user__name {
+  align-items: center;
+}
+
+.dropdown__button {
+  margin-left: 8px;
+  width: 33px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.points__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: none;
+}
+
+.mt__info {
+  margin-top: 9px;
+}
+.mt__info:first-child {
+  margin-left: 0px;
+}
+
+.mt__info a {
+  color: #262626;
+}
+.mt__info a:hover {
+  color: #4094ef;
+}
+
+.column a:hover {
+  text-decoration: none;
+}
+
+.mt__content-sub {
+  margin-left: -15px;
+  margin-top: 21px;
+}
+.mt__content-sub p,
+.mt__content-sub h5 {
+  margin-bottom: 0px;
+}
+
+.mt__content-sub h5 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.user__stories {
+  margin-top: 55px;
+  margin-left: 2px;
+}
+
+.user__stories-item {
+  margin-right: 42px;
+}
+.user__stories-item h6 {
+  text-align: center;
+  margin-top: 11px;
+}
+.user__stories-item h6 a {
+  text-align: center;
+
+  text-decoration: none;
+  color: #262626;
+}
+.user__stories-item h6 a:hover {
+  text-decoration: none;
+  color: #4094ef;
+}
+.nav__tab-item:hover {
+  text-decoration: none;
+  color: #4094ef;
+}
+.nav__tab-item {
+  color: #262626;
+  margin-right: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 19px;
+}
+.nav__tab-gallery {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.09em;
+}
+
+.flex__nav {
+  display: flex;
+  justify-content: center;
+}
+
+.noactive {
+  color: #8f8f8f;
+}
+.nav__tab-item img {
+  margin-right: 5px;
+}
+
+.main__bottom-line {
+  margin: 55px 20px 0px 20px;
+  width: 98%;
+  background: #dbdbdb;
+  text-align: center;
+}
+
+.active {
+  border-top: 1px solid #262626;
+}
+
+.mt__photo {
+  margin-bottom: 25px;
+}
+
+.mb__photo {
+  margin-top: 12px;
+}
+
+.circleforletter {
+  position: relative;
+
+  bottom: 26px;
+  left: 11px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dc565b;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+@media (max-width: 995px) {
+  .mt__content {
+    padding-left: 15px;
+  }
+  .mt__photo {
+    margin-right: 100px;
+  }
+  .mb__photo {
+    margin-top: 0px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 945px) {
+  .mt__photo {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 765px) {
+  .mob__photo {
+    margin-top: 12px;
+  }
+  .user__logo {
+    text-align: center;
+  }
+  .user__name,
+  .mt__info {
+    justify-content: center;
+  }
+  .mt__photo {
+    text-align: center;
+  }
+}
+
+@media (max-width: 630px) {
+  .mt__photo {
+    margin-right: 0px;
+  }
+  .header__nav-bar {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .mt__content-sub {
+    padding-left: 20px;
+  }
+  .user__stories {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .user__stories-item {
+    margin-right: 10px;
+  }
+}
