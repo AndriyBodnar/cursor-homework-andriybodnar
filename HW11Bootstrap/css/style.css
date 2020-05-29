@@ -255,10 +255,16 @@
   .user__stories {
     text-align: center;
   }
+  .user__logo {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 400px) {
   .user__stories-item {
     margin-right: 10px;
+  }
+  .mt__logo {
+    margin-left: 0px;
   }
 }
