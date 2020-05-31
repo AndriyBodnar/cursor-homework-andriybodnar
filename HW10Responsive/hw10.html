@@ -76,8 +76,8 @@
       <div class="secondscreen">
         <section class="firstsection">
           <div class="firstsection__background">
-            <div class="firstsection__score">
-              <img
+            <!-- <div class="firstsection__score">
+              <!-- <img
                 src="../HW10Responsive/img/sectionfirst/first.png"
                 alt="Notifications"
                 class="score__dekstop"
@@ -86,7 +86,30 @@
                 src="../HW10Responsive/img/sectionfirst/second.png"
                 alt="Notifications"
                 class="score__mobile"
-              />
+              /> -->
+
+            <!-- </div> -->
+            <div class="firstsection__score">
+              <div class="firstsection__container">
+                <div class="firstsection__container-text">
+                  <span>Sat, 12:35pm</span>
+                  <h5>Arsenal v Chelsea</h5>
+                  <p>Friendly Match</p>
+                </div>
+                <div class="firstsection__container-emblem">
+                  <img src="/Other/arsenal.svg" alt="" class="arsenal" />
+                  <img src="/Other/chelsea.svg" alt="" class="chelsea" />
+                </div>
+              </div>
+              <div class="firstsection__switch">
+                <p>Turn on all match notifications</p>
+
+                <!-- Rounded switch -->
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="slider round"></span>
+                </label>
+              </div>
             </div>
             <div class="firstsection__video">
               <img
@@ -147,21 +170,42 @@
                   id="point"
                   alt="point"
                 />
-                <img
+                <button id="bell">
+                  <img
+                    src="../HW10Responsive/img/sectionsecond/bell.svg"
+                    alt=""
+                  />
+                  <span class="circleforletter">7</span>
+                </button>
+                <!-- <img
                   src="../HW10Responsive/img/sectionsecond/bellsvg.svg"
                   id="bell"
                   alt="bell-logo"
-                />
-                <img
+                /> -->
+                <!-- <img
                   src="../HW10Responsive/img/sectionsecond/inout.svg"
                   id="inout"
                   alt="inout-logo"
-                />
-                <img
+                /> -->
+                <button id="inout">
+                  <img
+                    src="../HW10Responsive/img/sectionsecond/inout.svg"
+                    alt=""
+                  />
+                </button>
+
+                <button id="inout-2">
+                  <img
+                    src="../HW10Responsive/img/sectionsecond/backet.svg"
+                    alt=""
+                  />
+                  <span class="circleforinout">7</span>
+                </button>
+                <!-- <img
                   src="../HW10Responsive/img/sectionsecond/backet.svg"
                   alt=""
                   id="inout-2"
-                />
+                /> -->
               </div>
             </div>
           </div>
