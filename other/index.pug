@@ -1,0 +1,28 @@
+-var name="Super Menu";
+-var title="Hello World"
+-var users=["one", "two", "three"]
+mixin renderUSer(name="default name")
+    .name__container
+        h2.user__name
+        p.text Random text
+doctype html
+head
+    meta(charset="utf-8")
+    title Pug & Sass/title
+    link(rel="stylesheet" href="css/style.css")
+body
+    nav.nav
+        ul
+            - for (var i=1; i<4; i++)
+                li.menu
+                    a(href="#").link #{name} #{i}
+    header.header
+        h1.title #{title}
+        p#slogan Work hard - play hard!
+        .empty-block
+            .empty-block
+        .empty-block 
+    main.main
+        each user in users
+            h2.user__name #{user}   
+            +renderUser
