@@ -373,8 +373,9 @@ body {
   }
 }
 .article {
-  max-width: 1200px;
-  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/article-background.png");
 }
 .article__content {
   display: flex;
@@ -383,9 +384,8 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 237.6px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../img/article-background.png");
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .article__title {
   color: #091133;
