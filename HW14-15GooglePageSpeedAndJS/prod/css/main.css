@@ -1137,7 +1137,7 @@ footer {
   background: url("../img/arrow-right.png") 0 0 no-repeat;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .video {
     display: none;
   }
