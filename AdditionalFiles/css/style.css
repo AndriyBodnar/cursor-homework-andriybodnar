@@ -37,6 +37,7 @@ h1 {
   display: flex;
 }
 
-.secondsection {
+.secondsection,
+.thirdsection {
   margin-left: 60px;
 }
